@@ -1,0 +1,36 @@
+.logo-social-network{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+    padding-bottom: 24px;
+
+    & li:not(:last-child){
+        margin-right: 10px;
+     }
+
+    & .logotype{
+        display: flex;
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        overflow: hidden;
+        color: $primari-social-logo-color;
+        transition: color $transition-diagram, background-color $transition-diagram;
+    }
+
+    & .logotype:hover,
+    & .logotype:focus{
+       background-color: $primari-hover-bg-color-logotype; 
+       color:$primari-social-logo-hover-color;
+    }
+}
+
+.ftr .logotype-footer{
+    background-color:$bg-color-footer-logo;
+    color:$secodaty-title-color;
+    transition: background-color $transition-diagram;
+}
+.icon{
+    margin: auto;
+    fill: currentColor;
+ }

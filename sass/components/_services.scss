@@ -1,0 +1,58 @@
+.cont-services{
+    
+        display: none;
+    @media screen and (min-width: 1600px){
+        display: block;
+        
+    }
+}
+.services {
+
+    & .title{
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $primary-title-color;
+     }
+
+    & .services-title{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $secodaty-title-color;
+        background: $primary-bg-adv-color;
+        border-radius: 0px 0px 4px 4px;
+        padding: 27px 87px;
+        padding-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+     }
+
+    & .list{
+        display: flex;
+        padding-left: 0;
+        margin: 0;
+        
+     }
+    
+    & .item{
+        position: relative;
+        width: calc((100% - 60px) / 3);
+        overflow: hidden;
+        border-radius: 4px;
+     }
+    
+    & .item + .item{
+        margin-left: 30px;
+     }
+
+}

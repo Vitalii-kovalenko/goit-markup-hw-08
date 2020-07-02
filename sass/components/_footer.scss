@@ -1,0 +1,227 @@
+.container-footer{
+    padding-top: 48px;
+    padding-left: 15px;
+    padding-right: 15px; 
+
+   
+     
+       margin-left: auto;
+       margin-right: auto ;
+
+       @media screen and (min-width: 768px) {
+            display: flex;
+            max-width: 768px;
+            flex-wrap: wrap;
+           
+            justify-content: center;
+            
+          
+       }
+       @media screen and (min-width: 1600px) {
+         max-width: 1200px;
+         align-items: baseline;
+         padding-top: 60px;
+       }
+
+    
+ }
+ .footer-contact{
+    @media screen and (min-width: 768px) {
+      margin-right: 165px;
+      text-align: center; 
+    }
+    @media screen and (min-width:1600px) {
+     text-align: start;
+     margin-right: 0;
+  }
+ }
+
+
+ .ftr {
+    background-color: $bg-color-footer;
+
+   
+      
+     
+
+    & b{
+        
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:$secodaty-title-color;
+       
+
+     
+        display: block;
+        text-align: center;
+        
+         margin-bottom: 20px;
+        @media screen and (min-width:1600px) {
+          text-align: start;
+        } 
+      
+      
+     }
+
+    & .join-in{
+
+     
+         margin-bottom: 20px;
+      
+
+        @media screen and (min-width: 1600px) {
+          margin-left: 69px;
+          margin-right: auto;
+          
+        }
+      
+     }
+
+    & .adr{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+      //   margin-top: 9px;
+        font-style: normal;
+
+        
+        display: block;
+        text-align: center;
+        margin-bottom: 8px;
+        
+        @media screen and (min-width:1600px) {
+          text-align : start;
+        } 
+       
+     }
+
+   
+   }
+
+
+ .footer-form{
+   
+    position: relative;
+      // max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+   
+       text-align: center;
+
+       @media screen and (min-width:768px) {
+         max-width: 768px;
+       }
+       @media screen and (min-width:1600px) {
+          display: flex;}
+       
+    
+ }
+
+ 
+ .footer-input{
+   
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    
+       display: block;
+       
+      width: 100%;
+      max-width: 450px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      @media screen and (min-width:768px) {
+         width: 450px;
+      }
+
+      @media screen and (min-width:1600px) {
+         margin-right: 12px;
+        width: 358px;
+        margin-bottom: 0;
+     }
+    
+
+    &:focus + .footer-label, 
+    &:not(:placeholder-shown) + .footer-labell{
+
+     
+         transform: translateY(-50px);
+      
+      
+    }
+ }
+ 
+ .footer-label{
+    position: absolute;
+ 
+  
+ 
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: transform $transition-diagram;
+
+   
+      transform: translateY(-50%);
+      left: 16px;
+      top: 25px;
+    
+    
+ }
+ 
+ .button.button-footer::after{
+    display: inline-block;
+    background-image: url(../img/icon-send.svg);
+    background-size: contain;
+    // background-repeat: no-repeat;
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+ }
+ 
+
+
+
+.address-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+
+
+       margin-bottom: 60px;
+    
+
+    & .to-map{
+      //   margin-top: 0;
+      //   margin-bottom: 0;
+        color:$secodaty-title-color;
+
+      
+     }
+
+    & .mail-tel{
+        color: $primary-text-color;
+     }
+
+    & a{
+        color:$primary-address-ftr-color;
+     }
+ }
+
+

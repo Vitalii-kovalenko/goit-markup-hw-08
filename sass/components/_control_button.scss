@@ -1,0 +1,51 @@
+.container.control-button{
+   padding-top: 60px;
+   padding-bottom: 0;
+   
+
+}
+
+.buttom-flex--button{
+
+   
+
+   margin: 5px 4px;
+
+   & button {
+      
+   
+      background-color: $primary-button-bg-stok-color;
+      color: $primary-button-text-stok-color;
+      cursor: pointer;
+      padding: 6px 22px;
+      border-radius: 4px;
+      transition: color $transition-diagram, background-color  $transition-diagram;
+   }
+
+  
+      
+
+   & button:hover,
+   & button:focus{
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+      background-color: $primary-button-hoverfocus-color;
+      color: $primary-button-text-hoverfocus-color;
+   }
+}
+   
+.btn{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.625;
+   letter-spacing: 0.03em;
+}
+.btns .button-flex{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   @media screen and (min-width: 768px) {
+      justify-content: center;
+   }
+
+
+}

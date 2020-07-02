@@ -1,0 +1,91 @@
+body {
+    background-color:$body-bg-color;
+    font-family: $primari-font;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+ }
+ .container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+   
+
+    
+      max-width: 480px;
+      padding-bottom: 60px;
+      padding-top: 60px;
+    
+  
+    @media screen and (min-width: 768px) {
+       max-width: 768px;
+      width: 768px;
+    }
+  
+    @media screen and (min-width: 1600px) {
+       max-width: 1200px;
+      width: 1200px;
+      padding-bottom: 94px;
+      padding-top: 94px;
+    }
+ }
+ a{
+    text-decoration: none; 
+ }
+ ul{
+    list-style: none;
+    padding: 0;
+    margin: 0
+   
+ }
+ li{
+    list-style-type: none;
+ }
+
+ button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+ }
+ 
+ .button{
+     
+    display: inline-flex;
+    color: $secodaty-title-color;
+    background-color: $primary-bg-color;
+    min-width: 200px;
+    padding: 10px 32px ;
+    box-shadow: 0px 4px 4px $primary-shadow-color;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+ }
+
+ .hide{
+ 
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+input:focus, input:active
+{
+   outline: none;
+}

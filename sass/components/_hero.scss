@@ -1,0 +1,85 @@
+.hero{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: $bg-color-hero;
+    
+    background-position: center;
+    background-size: cover;
+
+
+    
+    max-width: 480px; 
+    height: 400px;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../img/Header.jpg);
+    background-size: cover;
+   
+    
+
+    @media screen and (min-width: 768px){
+        max-width: 768px; 
+        height: 400px;
+        background-image:linear-gradient(to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../img/Header.jpg);
+        
+    }
+
+    @media screen and (min-width: 1600px){
+        max-width: 1600px; 
+        height: 600px;
+        background-image:linear-gradient(to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../img/Header.jpg);
+        
+    }
+    
+       
+}
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            .hero {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../img/Header@2x.jpg);
+            }
+        }
+        @media screen and (min-device-pixel-ratio: 3),
+        screen and (min-resolution: 288dpi),
+        screen and (min-resolution: 3dppx) {
+            .hero {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8)), url(../img/Header@3x.jpg);
+            }
+        }  
+
+
+
+.hero-title {
+    margin-top: 0;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $secodaty-title-color;
+    text-align: center;
+
+
+    
+    font-size: 26px;
+    line-height: 1.62;
+    padding-top: 118px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom:  40px;
+    
+
+    @media screen and (min-width: 768px) {
+        padding-left: 204px;
+        padding-right: 204px;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 44px;
+        line-height: 1.36;
+        padding-left: 452px;
+        padding-right: 452px;
+        margin-bottom: 30px;
+        padding-top: 200px;
+    }
+ 
+}
