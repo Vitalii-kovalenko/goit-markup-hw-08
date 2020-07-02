@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
     width: 1200px;
@@ -124,7 +124,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .logo {
     margin-right: 85px;
   }
@@ -142,7 +142,7 @@ input:focus, input:active {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .logo-footer {
     text-align: start;
   }
@@ -223,7 +223,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container-header {
     max-width: 1200px;
   }
@@ -327,7 +327,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .site-nav {
     margin-left: auto;
   }
@@ -386,7 +386,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .address {
     margin-left: 305px;
     margin-right: 0;
@@ -411,13 +411,13 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .address .link {
     font-size: 14px;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .link:not(:last-child) {
     margin-right: 30px;
   }
@@ -433,7 +433,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .link:not(:last-child) {
     padding-bottom: 0;
   }
@@ -490,7 +490,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
     height: 600px;
@@ -536,7 +536,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .hero-title {
     font-size: 44px;
     line-height: 1.36;
@@ -579,7 +579,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .advantages .item {
     width: calc((100% - 8 * 15px) / 4);
     margin: 15px;
@@ -598,7 +598,7 @@ input:focus, input:active {
   text-align: center;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .advantages .title {
     text-align: start;
   }
@@ -647,7 +647,7 @@ input:focus, input:active {
   display: none;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .cont-services {
     display: block;
   }
@@ -766,7 +766,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 1600px) {
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .team .item {
     width: calc((100% - 8 * 15px) / 4);
     margin: 15px;
@@ -896,7 +896,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .company {
     width: calc((100% - 12 * 15px) / 6);
   }
@@ -947,7 +947,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container-footer {
     max-width: 1200px;
     -webkit-box-align: baseline;
@@ -964,7 +964,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-contact {
     text-align: start;
     margin-right: 0;
@@ -987,7 +987,7 @@ input:focus, input:active {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .ftr b {
     text-align: start;
   }
@@ -997,7 +997,7 @@ input:focus, input:active {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .ftr .join-in {
     margin-left: 69px;
     margin-right: auto;
@@ -1014,7 +1014,7 @@ input:focus, input:active {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .ftr .adr {
     text-align: start;
   }
@@ -1034,7 +1034,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1070,7 +1070,7 @@ input:focus, input:active {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .footer-input {
     margin-right: 12px;
     width: 358px;
@@ -1167,6 +1167,12 @@ input:focus, input:active {
   margin-right: auto;
   padding: 40px;
   position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 528px;
+  }
 }
 
 textarea {
@@ -1483,7 +1489,7 @@ input:not(:placeholder-shown) {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container.project {
     padding-top: 50px;
     padding-bottom: 94px;
@@ -1577,7 +1583,7 @@ input:not(:placeholder-shown) {
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .project-tile .item {
     width: calc((100% - 6 * 15px) / 3);
   }

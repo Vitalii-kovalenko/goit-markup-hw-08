@@ -36,6 +36,10 @@
     padding: 40px;
     position: relative;
 
+    @media screen and (min-width: 1200px) {
+       width: 528px;
+    }
+
 
  }
  textarea{
@@ -261,7 +265,7 @@
     position: absolute;
     right: 8px;
     top: 8px;
-   //  transform: translate(50%, -50%);
+   
     cursor: pointer;
     transition: background-color $transition-diagram, fill $transition-diagram;
 
