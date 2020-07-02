@@ -1021,6 +1021,7 @@ input:focus, input:active {
 
 .footer-form {
   position: relative;
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
