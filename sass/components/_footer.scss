@@ -2,7 +2,7 @@
     padding-top: 48px;
     padding-left: 15px;
     padding-right: 15px; 
-
+   padding-bottom: 60px;
    
      
        margin-left: auto;
@@ -12,7 +12,7 @@
             display: flex;
             max-width: 768px;
             flex-wrap: wrap;
-           
+            padding-bottom: 60px;
             justify-content: center;
             
           
@@ -21,6 +21,7 @@
          max-width: 1200px;
          align-items: baseline;
          padding-top: 60px;
+         
        }
 
     
@@ -75,10 +76,17 @@
         @media screen and (min-width: 1200px) {
           margin-left: 69px;
           margin-right: auto;
+          margin-bottom: 0;
           
         }
+        & .logo-social-network{
+           @media screen and (min-width: 1200px){
+            padding-bottom: 0;
+           }
+         }
+        }
       
-     }
+     
 
     & .adr{
         display: inline-block;
@@ -204,7 +212,7 @@
     letter-spacing: 0.03em; 
 
 
-       margin-bottom: 60px;
+   
     
 
     & .to-map{
